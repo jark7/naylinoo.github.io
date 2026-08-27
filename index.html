@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nay Lin Oo (Nate) — Account Executive, APAC</title>
+<meta name="description" content="B2B Account Executive with 5 years selling into telecom, fintech, BPO and tech across APAC. $1M+ sourced pipeline, 40% win rate on competitive bids, deals with ATOM, Heineken and G Bank.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,300..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#101A33;
+  --ink-2:#1B2650;
+  --ink-3:#2C3A6B;
+  --paper:#F2F1EC;
+  --paper-2:#FBFAF7;
+  --saffron:#E9A13B;
+  --won:#2E8B69;
+  --mute:#6B7183;
+  --mute-light:#9AA2B4;
+  --line:rgba(16,26,51,.14);
+  --line-dark:rgba(255,255,255,.16);
+  --wrap:1120px;
+  --display:"Archivo",system-ui,sans-serif;
+  --body:"Newsreader",Georgia,serif;
+  --data:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:clamp(1.02rem,.98rem + .3vw,1.13rem);
+  line-height:1.62;
+  font-weight:380;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 clamp(20px,5vw,48px)}
+.band{padding:clamp(60px,9vw,112px) 0}
+.band--dark{background:var(--ink);color:var(--paper)}
+.band--tight{padding-top:clamp(40px,5vw,56px)}
+
+/* ---------- type ---------- */
+h1,h2,h3,.d{font-family:var(--display);font-weight:700;letter-spacing:-.02em;line-height:1.04}
+h2{font-size:clamp(1.75rem,1.3rem + 2vw,2.7rem);font-stretch:112%}
+h3{font-size:1.12rem;letter-spacing:-.01em;line-height:1.25}
+.eyebrow{
+  font-family:var(--data);font-size:.72rem;font-weight:500;
+  letter-spacing:.19em;text-transform:uppercase;color:var(--mute);
+  display:flex;align-items:center;gap:12px;margin-bottom:22px;
+}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+.band--dark .eyebrow{color:var(--saffron)}
+.band--dark .eyebrow::after{background:var(--line-dark)}
+.lede{font-size:clamp(1.1rem,1rem + .5vw,1.32rem);color:var(--mute);max-width:60ch;line-height:1.55}
+.band--dark .lede{color:rgba(242,241,236,.72)}
+a{color:inherit}
+
+/* ---------- header ---------- */
+.topbar{
+  position:sticky;top:0;z-index:40;background:var(--ink);color:var(--paper);
+  border-bottom:1px solid var(--line-dark);
+}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:56px}
+.mark{font-family:var(--data);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}
+.mark b{color:var(--saffron);font-weight:500}
+.nav{display:flex;gap:26px;font-family:var(--data);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase}
+.nav a{color:rgba(242,241,236,.66);text-decoration:none;transition:color .2s}
+.nav a:hover,.nav a:focus-visible{color:var(--saffron)}
+@media(max-width:720px){.nav{display:none}}
+
+/* ---------- hero ---------- */
+.hero{background:var(--ink);color:var(--paper);padding:clamp(48px,7vw,86px) 0 0;position:relative;overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(880px 420px at 78% 8%,rgba(233,161,59,.13),transparent 62%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative}
+.record{
+  display:grid;grid-template-columns:1fr 220px;gap:clamp(28px,5vw,64px);align-items:start;
+}
+@media(max-width:860px){.record{grid-template-columns:1fr}}
+.status{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:var(--data);font-size:.71rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--paper);border:1px solid var(--line-dark);border-radius:999px;
+  padding:7px 15px 7px 12px;margin-bottom:26px;background:rgba(255,255,255,.04);
+}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--won);box-shadow:0 0 0 4px rgba(46,139,105,.22)}
+.hero h1{
+  font-size:clamp(2.6rem,1.6rem + 4.6vw,5rem);font-weight:800;font-stretch:118%;
+  letter-spacing:-.035em;margin-bottom:6px;
+}
+.hero h1 .alias{color:var(--saffron)}
+.role{
+  font-family:var(--data);font-size:clamp(.78rem,.7rem + .3vw,.92rem);
+  letter-spacing:.2em;text-transform:uppercase;color:rgba(242,241,236,.68);
+  margin-bottom:30px;
+}
+.thesis{
+  font-size:clamp(1.22rem,1.05rem + .9vw,1.72rem);line-height:1.38;font-weight:400;
+  max-width:22ch;margin-bottom:22px;
+}
+.thesis em{font-style:normal;color:var(--saffron)}
+.hero p.sub{color:rgba(242,241,236,.7);max-width:52ch;margin-bottom:34px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:clamp(40px,6vw,64px)}
+.btn{
+  font-family:var(--data);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;
+  padding:13px 22px;border-radius:2px;text-decoration:none;border:1px solid transparent;
+  transition:transform .18s ease,background .2s,color .2s,border-color .2s;display:inline-block;
+}
+.btn--solid{background:var(--saffron);color:var(--ink);font-weight:500}
+.btn--solid:hover{transform:translateY(-2px);background:#F2B457}
+.btn--ghost{border-color:var(--line-dark);color:var(--paper)}
+.btn--ghost:hover{border-color:var(--saffron);color:var(--saffron);transform:translateY(-2px)}
+
+/* portrait */
+.portrait{position:relative;width:200px;max-width:60vw}
+.portrait .frame{
+  aspect-ratio:1;border-radius:2px;overflow:hidden;position:relative;
+  border:1px solid var(--line-dark);background:var(--ink-2);
+  display:flex;align-items:center;justify-content:center;
+}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
+.monogram{font-family:var(--display);font-size:3.4rem;font-weight:800;font-stretch:118%;color:var(--saffron);letter-spacing:-.03em}
+.portrait figcaption{
+  font-family:var(--data);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--mute-light);margin-top:12px;line-height:1.7;
+}
+@media(max-width:860px){.portrait{order:-1;width:120px;margin-bottom:8px}.monogram{font-size:2.2rem}}
+
+/* metric strip */
+.strip{border-top:1px solid var(--line-dark);display:grid;grid-template-columns:repeat(5,1fr)}
+@media(max-width:900px){.strip{grid-template-columns:repeat(2,1fr)}}
+.metric{padding:26px 24px 30px;border-right:1px solid var(--line-dark)}
+.metric:last-child{border-right:0}
+@media(max-width:900px){
+  .metric{border-right:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark)}
+  .metric:nth-child(2n){border-right:0}
+}
+.metric .n{
+  font-family:var(--display);font-size:clamp(1.7rem,1.3rem + 1.4vw,2.5rem);font-weight:700;
+  font-stretch:118%;letter-spacing:-.03em;color:var(--saffron);line-height:1;margin-bottom:9px;
+}
+.metric .l{font-family:var(--data);font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:rgba(242,241,236,.6);line-height:1.55}
+
+/* ---------- how i sell ---------- */
+.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:14px}
+@media(max-width:900px){.stages{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.stages{grid-template-columns:1fr}}
+.stage{background:var(--paper-2);padding:28px 24px 30px;position:relative}
+.stage .tag{
+  font-family:var(--data);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--saffron);margin-bottom:16px;display:block;
+}
+.stage h3{margin-bottom:10px}
+.stage p{font-size:.98rem;color:var(--mute);line-height:1.55}
+.stage .pin{
+  margin-top:18px;padding-top:14px;border-top:1px dashed var(--line);
+  font-family:var(--data);font-size:.72rem;letter-spacing:.03em;color:var(--won);line-height:1.5;
+}
+
+/* ---------- logos ---------- */
+.logos{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-dark);border:1px solid var(--line-dark);margin-top:36px}
+@media(max-width:760px){.logos{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.logos{grid-template-columns:1fr}}
+.logo{background:var(--ink);padding:26px 22px;transition:background .25s}
+.logo:hover{background:var(--ink-2)}
+.logo .nm{font-family:var(--display);font-size:1.22rem;font-weight:700;font-stretch:110%;letter-spacing:-.02em;margin-bottom:6px}
+.logo .mt{font-family:var(--data);font-size:.69rem;letter-spacing:.09em;text-transform:uppercase;color:rgba(242,241,236,.52)}
+
+/* ---------- track record rail ---------- */
+.rail{margin-top:44px;position:relative;padding-left:clamp(22px,4vw,42px)}
+.rail::before{content:"";position:absolute;left:5px;top:10px;bottom:10px;width:1px;background:var(--line)}
+.job{position:relative;padding-bottom:clamp(34px,5vw,52px)}
+.job:last-child{padding-bottom:0}
+.job::before{
+  content:"";position:absolute;left:calc(-1 * clamp(22px,4vw,42px) + 1px);top:9px;
+  width:9px;height:9px;border-radius:50%;background:var(--paper);border:2px solid var(--mute-light);
+  transition:background .3s,border-color .3s;
+}
+.job--now::before{background:var(--saffron);border-color:var(--saffron);box-shadow:0 0 0 5px rgba(233,161,59,.2)}
+.job .meta{
+  font-family:var(--data);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--mute);margin-bottom:9px;display:flex;flex-wrap:wrap;gap:6px 14px;
+}
+.job .meta .co{color:var(--ink)}
+.job h3{font-size:clamp(1.18rem,1.05rem + .5vw,1.5rem);font-stretch:108%;margin-bottom:12px}
+.job .sum{color:var(--mute);max-width:66ch;margin-bottom:14px;font-size:1rem}
+.job ul{list-style:none;display:grid;gap:9px;max-width:70ch}
+.job li{position:relative;padding-left:20px;font-size:.99rem;line-height:1.55}
+.job li::before{content:"";position:absolute;left:2px;top:.62em;width:8px;height:1px;background:var(--saffron)}
+.job li b{font-weight:600;font-family:var(--display);font-size:.94em;letter-spacing:-.01em}
+
+/* ---------- two col info ---------- */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,72px)}
+@media(max-width:820px){.cols{grid-template-columns:1fr}}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chip{
+  font-family:var(--data);font-size:.73rem;letter-spacing:.04em;
+  border:1px solid var(--line);border-radius:2px;padding:8px 13px;color:var(--mute);background:var(--paper-2);
+}
+.deflist{margin-top:20px;display:grid;gap:0}
+.deflist div{display:grid;grid-template-columns:auto 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.deflist dt{font-family:var(--data);font-size:.7rem;letter-spacing:.11em;text-transform:uppercase;color:var(--mute);white-space:nowrap}
+.deflist dd{font-size:.99rem}
+.deflist dd small{display:block;color:var(--mute);font-family:var(--data);font-size:.72rem;letter-spacing:.03em;margin-top:3px}
+@media(max-width:520px){.deflist div{grid-template-columns:1fr;gap:4px}}
+
+/* ---------- contact ---------- */
+.cta h2{font-size:clamp(2rem,1.4rem + 3vw,3.4rem);font-stretch:116%;max-width:16ch;margin-bottom:20px}
+.contact-list{display:flex;flex-wrap:wrap;gap:10px 34px;margin-top:30px;font-family:var(--data);font-size:.82rem;letter-spacing:.04em}
+.contact-list a{color:var(--saffron);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
+.contact-list a:hover{border-color:var(--saffron)}
+footer{border-top:1px solid var(--line-dark);padding:22px 0;background:var(--ink);color:rgba(242,241,236,.45)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;font-family:var(--data);font-size:.7rem;letter-spacing:.09em;text-transform:uppercase}
+
+/* ---------- motion ---------- */
+.rise{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1)}
+.rise.in{opacity:1;transform:none}
+:focus-visible{outline:2px solid var(--saffron);outline-offset:3px;border-radius:2px}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .rise{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+@media print{.topbar,.hero::before{display:none}body{background:#fff}}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <span class="mark">Nay Lin Oo <b>/ AE — APAC</b></span>
+    <nav class="nav">
+      <a href="#approach">Approach</a>
+      <a href="#closed">Closed</a>
+      <a href="#record">Track record</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="record">
+      <div>
+        <span class="status rise"><span class="dot"></span>Open to Account Executive roles · Bangkok / APAC remote</span>
+        <h1 class="rise">Nay Lin Oo <span class="alias">“Nate”</span></h1>
+        <p class="role rise">B2B Account Executive · Telecom · Fintech · BPO · SaaS</p>
+        <p class="thesis rise">I get into the room with APAC decision-makers — and I leave with a <em>signed contract</em>.</p>
+        <p class="sub rise">Five years selling across Myanmar, Thailand and the wider APAC region. I build the list myself, work the full buying committee, and hold the pen through negotiation. Logos closed include ATOM (formerly Telenor), Heineken and G Bank.</p>
+        <div class="actions rise">
+          <a class="btn btn--solid" href="mailto:naylinoo71999@gmail.com?subject=Account%20Executive%20role">Book a call</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/nay-lin-oo/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="Nate_Resume_2026.pdf" download>Download CV</a>
+        </div>
+      </div>
+
+      <figure class="portrait rise">
+        <div class="frame">
+          <img id="photo" src="profile.jpg" alt="Portrait of Nay Lin Oo">
+          <span class="monogram" id="monogram" hidden>NLO</span>
+        </div>
+        <figcaption>Based in Bangkok<br>Covering APAC</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="strip">
+    <div class="metric"><div class="n" data-count="5" data-suffix=" yrs">5 yrs</div><div class="l">B2B sales<br>experience</div></div>
+    <div class="metric"><div class="n" data-count="1" data-prefix="$" data-suffix="M+">$1M+</div><div class="l">Pipeline sourced<br>in APAC telecom</div></div>
+    <div class="metric"><div class="n" data-count="40" data-suffix="%">40%</div><div class="l">Win rate on<br>competitive bids</div></div>
+    <div class="metric"><div class="n" data-count="80" data-suffix="+">80+</div><div class="l">Client meetings booked<br>in six months</div></div>
+    <div class="metric"><div class="n" data-count="25" data-suffix="%">25%</div><div class="l">Lift in lead<br>conversion rate</div></div>
+  </div>
+</section>
+
+<section class="band" id="approach">
+  <div class="wrap">
+    <p class="eyebrow rise">How I run a deal</p>
+    <h2 class="rise">Four stages, and I own all of them.</h2>
+    <div class="stages">
+      <article class="stage rise">
+        <span class="tag">Stage 01 — Source</span>
+        <h3>Build the list, don't inherit it</h3>
+        <p>Sales Navigator and ZoomInfo to define the ICP, then org-chart mapping to find who actually signs. Every prospect tagged and nurtured in HubSpot.</p>
+        <p class="pin">$1M+ pipeline sourced across APAC telecom</p>
+      </article>
+      <article class="stage rise">
+        <span class="tag">Stage 02 — Open</span>
+        <h3>Get the first meeting</h3>
+        <p>Personalised outbound to C-level, Director and Senior Manager targets, backed by conference floors, speaking slots and published commentary that make the follow-up warm.</p>
+        <p class="pin">20% meeting rate · 80+ meetings in half a year</p>
+      </article>
+      <article class="stage rise">
+        <span class="tag">Stage 03 — Multithread</span>
+        <h3>Work the whole committee</h3>
+        <p>Find the champion, map every stakeholder around them, and keep the economic buyer in the loop so the deal doesn't die when one contact goes quiet.</p>
+        <p class="pin">3 qualified opportunities in first 3 months</p>
+      </article>
+      <article class="stage rise">
+        <span class="tag">Stage 04 — Close</span>
+        <h3>Negotiate and sign</h3>
+        <p>Competitive bids, proposals and pricing conversations with C-level buyers, then cross-functional delivery so the account renews and expands.</p>
+        <p class="pin">40% bid win rate · 75% close rate on qualified deals</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band band--dark" id="closed">
+  <div class="wrap">
+    <p class="eyebrow rise">Accounts won</p>
+    <h2 class="rise">Deals I sourced, negotiated<br>or closed.</h2>
+    <p class="lede rise" style="margin-top:18px">Enterprise telecom, FMCG, banking and hospitality — across three markets, in English and Burmese.</p>
+    <div class="logos">
+      <div class="logo rise"><div class="nm">ATOM</div><div class="mt">Telecom · formerly Telenor Myanmar</div></div>
+      <div class="logo rise"><div class="nm">Heineken</div><div class="mt">FMCG · multinational</div></div>
+      <div class="logo rise"><div class="nm">G Bank</div><div class="mt">Financial services</div></div>
+      <div class="logo rise"><div class="nm">Concordia Thailand</div><div class="mt">International client · Bangkok</div></div>
+      <div class="logo rise"><div class="nm">YKKO</div><div class="mt">F&amp;B · national chain</div></div>
+      <div class="logo rise"><div class="nm">Yangon Teahouse</div><div class="mt">Hospitality group</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="record">
+  <div class="wrap">
+    <p class="eyebrow rise">Track record</p>
+    <h2 class="rise">Yangon to Bangkok to APAC.</h2>
+
+    <div class="rail">
+      <article class="job job--now rise">
+        <div class="meta"><span class="co">Vox Solutions</span><span>Hong Kong · Remote</span><span>05/2025 — Present</span></div>
+        <h3>Industry Advisor, APAC</h3>
+        <p class="sum">Own top-of-funnel for the APAC telecom segment: build the prospect universe, open C-level conversations and hand VPs qualified discovery calls.</p>
+        <ul>
+          <li>Sourced a <b>$1M+ pipeline</b> across APAC telecom using Sales Navigator and ZoomInfo</li>
+          <li>Booked discovery calls with C-level, Director and Senior Manager ICPs at a <b>20% meeting rate</b></li>
+          <li>Mapped org charts and full buying committees with the VP, APAC — <b>3 qualified opportunities in 3 months</b></li>
+          <li>Ran competitor and pain-point research that shaped positioning and outbound messaging</li>
+          <li>Kept HubSpot clean: every interaction logged, every prospect tagged for nurture</li>
+        </ul>
+      </article>
+
+      <article class="job rise">
+        <div class="meta"><span class="co">Banyan Partners</span><span>Bangkok, Thailand</span><span>04/2024 — 05/2025</span></div>
+        <h3>Business Development Manager</h3>
+        <p class="sum">Built the commercial strategy with the managing partner and carried it end to end, from first touch to signed contract with C-level buyers.</p>
+        <ul>
+          <li>Closed Concordia Thailand, YKKO and Yangon Teahouse — <b>+10% international clients</b></li>
+          <li>Lifted lead conversion <b>25%</b> by rebuilding the follow-up process and sales messaging framework</li>
+          <li>Arranged and ran <b>80+ client meetings in six months</b></li>
+          <li>Raised industry visibility <b>40%</b> through conferences, speaking engagements and publications</li>
+          <li>Launched the firm's LinkedIn and Facebook presence from zero</li>
+        </ul>
+      </article>
+
+      <article class="job rise">
+        <div class="meta"><span class="co">Trust Venture Partners</span><span>Yangon, Myanmar</span><span>01/2024 — 03/2024</span></div>
+        <h3>Business Development Manager</h3>
+        <p class="sum">Brought in to stand up a repeatable acquisition motion, and did it inside a single quarter.</p>
+        <ul>
+          <li>Built a structured lead generation process — <b>+120% qualified leads</b></li>
+          <li>Drove <b>+20% sales in Q1 2024</b> through direct engagement with C-level and A-level executives</li>
+          <li>Partnered with cross-functional teams on every project to tailor the solution to the client</li>
+        </ul>
+      </article>
+
+      <article class="job rise">
+        <div class="meta"><span class="co">Fary Taxi</span><span>Yangon, Myanmar</span><span>09/2023 — 11/2023</span></div>
+        <h3>Marketing Manager</h3>
+        <p class="sum">Demand generation for a mobility platform — the marketing side of the same funnel I sell on.</p>
+        <ul>
+          <li>Content and collateral that lifted engagement and brand visibility <b>30%</b></li>
+          <li>Campaigns that reached <b>1,000+ new audience</b> and drove <b>+15% service enquiries</b></li>
+          <li>Grew driver and end-user partnerships <b>20–30%</b> through events and conferences</li>
+        </ul>
+      </article>
+
+      <article class="job rise">
+        <div class="meta"><span class="co">Mascon International</span><span>Yangon, Myanmar</span><span>02/2022 — 09/2023</span></div>
+        <h3>Senior Business Development Executive</h3>
+        <p class="sum">Full-cycle enterprise sales into telecom, banking and FMCG — the closing experience an AE seat runs on.</p>
+        <ul>
+          <li>Won ATOM (formerly Telenor), G Bank and Heineken — <b>+100% revenue from key accounts</b></li>
+          <li>Led competitive bids and proposals to a <b>40% win rate</b></li>
+          <li>Opened new and emerging segments, contributing <b>75% market share growth</b></li>
+        </ul>
+      </article>
+
+      <article class="job rise">
+        <div class="meta"><span class="co">Mascon International</span><span>Yangon, Myanmar</span><span>06/2020 — 05/2021</span></div>
+        <h3>Business Development Executive</h3>
+        <p class="sum">Where the fundamentals were built: cold outreach, pricing conversations and the discipline of following up.</p>
+        <ul>
+          <li><b>75% close rate</b> guiding customers to a buying decision</li>
+          <li><b>+35% prospect pipeline</b> through telephone outreach and independent research</li>
+          <li><b>90% client satisfaction</b> on enquiry and pricing response</li>
+          <li><b>+20% customer retention</b> from relationships with key decision-makers</li>
+        </ul>
+      </article>
+
+      <article class="job rise">
+        <div class="meta"><span class="co">Event Insider</span><span>Yangon, Myanmar</span><span>02/2020 — 04/2020</span></div>
+        <h3>Sales &amp; Marketing Associate</h3>
+        <ul>
+          <li>Tailored sales presentations that grew client acquisition <b>40%</b></li>
+          <li><b>+10% conversion</b> from restructured pitch delivery</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band band--tight" id="toolkit" style="border-top:1px solid var(--line)">
+  <div class="wrap cols">
+    <div>
+      <p class="eyebrow rise">Toolkit</p>
+      <h2 class="rise" style="font-size:clamp(1.4rem,1.2rem + 1vw,1.9rem)">What I run the desk on</h2>
+      <div class="chips rise">
+        <span class="chip">HubSpot CRM</span>
+        <span class="chip">LinkedIn Sales Navigator</span>
+        <span class="chip">ZoomInfo</span>
+        <span class="chip">Email finding &amp; verification</span>
+        <span class="chip">AI-assisted outreach</span>
+        <span class="chip">Sequenced cold outbound</span>
+        <span class="chip">Org-chart mapping</span>
+        <span class="chip">Bid &amp; proposal writing</span>
+        <span class="chip">Pipeline hygiene &amp; forecasting</span>
+        <span class="chip">Event-led pipeline</span>
+        <span class="chip">Product-led growth</span>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow rise">Background</p>
+      <h2 class="rise" style="font-size:clamp(1.4rem,1.2rem + 1vw,1.9rem)">Markets, languages, schooling</h2>
+      <dl class="deflist rise">
+        <div><dt>Markets</dt><dd>Myanmar · Thailand · Hong Kong · wider APAC</dd></div>
+        <div><dt>Languages</dt><dd>English — professional working proficiency<br>Burmese — native<br>Thai — conversational<small>Thai Language for Tourism &amp; Hospitality, North Chiang Mai University</small></dd></div>
+        <div><dt>Degree</dt><dd>BA in English<small>University of East Yangon</small></dd></div>
+        <div><dt>Diploma</dt><dd>Business Management<small>STI Myanmar University — certified</small></dd></div>
+        <div><dt>Recognition</dt><dd>Certificate of Appreciation<small>Mascon International — rewards &amp; recognition</small></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="band band--dark cta" id="contact">
+  <div class="wrap">
+    <p class="eyebrow rise">Contact</p>
+    <h2 class="rise">Give me a territory and a quota.</h2>
+    <p class="lede rise">I'm looking for an Account Executive seat covering APAC — telecom, SaaS or fintech. Happy to walk through any number on this page. References available on request.</p>
+    <div class="contact-list rise">
+      <span>Email <a href="mailto:naylinoo71999@gmail.com">naylinoo71999@gmail.com</a></span>
+      <span>Phone <a href="tel:+66619146401">+66 61 914 6401</a></span>
+      <span>LinkedIn <a href="https://www.linkedin.com/in/nay-lin-oo/" target="_blank" rel="noopener">/in/nay-lin-oo</a></span>
+      <span>Based in Bangkok, Thailand</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Nay Lin Oo — Account Executive, APAC</span>
+    <span>Bangkok · 2026</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Portrait fallback
+  var img = document.getElementById('photo'), mono = document.getElementById('monogram');
+  function useMonogram(){ img.style.display='none'; mono.hidden=false; }
+  img.addEventListener('error', useMonogram);
+  if (img.complete && img.naturalWidth === 0) useMonogram();
+
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Staggered reveal
+  var items = document.querySelectorAll('.rise');
+  if (reduced || !('IntersectionObserver' in window)) {
+    items.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (!e.isIntersecting) return;
+        var siblings = Array.prototype.slice.call(e.target.parentNode.children).filter(function(n){return n.classList.contains('rise');});
+        var i = Math.max(0, siblings.indexOf(e.target));
+        e.target.style.transitionDelay = Math.min(i * 70, 420) + 'ms';
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    items.forEach(function(el){ io.observe(el); });
+  }
+
+  // Metric count-up
+  var nums = document.querySelectorAll('[data-count]');
+  if (!reduced && 'IntersectionObserver' in window) {
+    var no = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (!e.isIntersecting) return;
+        var el = e.target,
+            target = parseFloat(el.dataset.count),
+            pre = el.dataset.prefix || '',
+            suf = el.dataset.suffix || '',
+            start = performance.now(), dur = 1100;
+        function tick(now){
+          var p = Math.min((now - start) / dur, 1),
+              eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = pre + Math.round(target * eased) + suf;
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        no.unobserve(el);
+      });
+    }, { threshold: 0.5 });
+    nums.forEach(function(el){ no.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
